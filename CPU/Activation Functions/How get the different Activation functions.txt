@@ -1,0 +1,10 @@
+import torch.nn as nn
+
+
+THIS IS HOW U CALL THE ACTIVATION FUNCTIONS IN THE PyTorch
+
+RELU = nn.ReLu()
+LeakyReLu = nn.LeakyReLU(negative_slope=0.01)
+Sigmoid = nn.Sigmoid()
+Softmax = nn.Softmax()
+TANH = nn.TanH()
